@@ -1,0 +1,10 @@
+# Thư viện Python cho pipeline video Tabcom
+# Cài: pip install -r requirements.txt
+
+pillow>=10.0          # render frame (Pillow 9.5 segfault tren Python 3.12)
+numpy>=1.24
+scipy>=1.10           # xu ly mask, lam muot vien cutout
+opencv-python>=4.8    # ve vien net dut quanh nguoi cho thumbnail
+rembg>=2.0            # tach nen nguoi (keo theo onnxruntime)
+faster-whisper>=1.0   # boc timestamp loi thoai
+playwright>=1.40      # chup man hinh trang web (tuy chon)
