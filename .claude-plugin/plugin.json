@@ -1,0 +1,11 @@
+{
+  "name": "tabcom-video-edit",
+  "version": "1.0.0",
+  "displayName": "Tabcom Video Edit",
+  "description": "Edit video dọc 9:16 cho Tabcom bằng ffmpeg + Pillow (tách nền người, cảnh chữ animation, ảnh minh họa, SFX) kèm skill tạo thumbnail.",
+  "author": { "name": "Annie-246", "url": "https://github.com/Annie-246" },
+  "homepage": "https://github.com/Annie-246/tabcom-video-edit-skill",
+  "repository": "https://github.com/Annie-246/tabcom-video-edit-skill",
+  "license": "MIT",
+  "keywords": ["video","ffmpeg","tabcom","thumbnail","vietnamese"]
+}

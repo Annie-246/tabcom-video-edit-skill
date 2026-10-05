@@ -4,20 +4,20 @@ Làm một lần trên mỗi máy. Mất khoảng 15–30 phút (chủ yếu là
 
 ## 1. Chép skill vào Claude Code
 
-Chép **cả hai thư mục** trong `.claude/skills/` của gói này vào thư mục skill của Claude Code:
+Chép **cả hai thư mục** trong `skills/` của gói này vào thư mục skill của Claude Code:
 
 **Windows**
 
 ```powershell
-Copy-Item ".\.claude\skills\tabcom-video-edit"      "$env:USERPROFILE\.claude\skills\" -Recurse -Force
-Copy-Item ".\.claude\skills\tabcom-video-thumbnail" "$env:USERPROFILE\.claude\skills\" -Recurse -Force
+Copy-Item ".\skills\tabcom-video-edit"      "$env:USERPROFILE\.claude\skills\" -Recurse -Force
+Copy-Item ".\skills\tabcom-video-thumbnail" "$env:USERPROFILE\.claude\skills\" -Recurse -Force
 ```
 
 **macOS / Linux**
 
 ```bash
-cp -r .claude/skills/tabcom-video-edit      ~/.claude/skills/
-cp -r .claude/skills/tabcom-video-thumbnail ~/.claude/skills/
+cp -r skills/tabcom-video-edit      ~/.claude/skills/
+cp -r skills/tabcom-video-thumbnail ~/.claude/skills/
 ```
 
 Mở lại Claude Code, gõ `/` sẽ thấy hai skill `tabcom-video-edit` và `tabcom-video-thumbnail`.

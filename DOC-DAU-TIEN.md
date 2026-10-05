@@ -13,14 +13,14 @@ Gói này **đã kèm sẵn font, nền, card gradient, OUTRO, logo sàn và sti
 
 ```powershell
 # Windows PowerShell, chạy trong thư mục gói này
-Copy-Item ".\.claude\skills\tabcom-video-edit"      "$env:USERPROFILE\.claude\skills\" -Recurse -Force
-Copy-Item ".\.claude\skills\tabcom-video-thumbnail" "$env:USERPROFILE\.claude\skills\" -Recurse -Force
+Copy-Item ".\skills\tabcom-video-edit"      "$env:USERPROFILE\.claude\skills\" -Recurse -Force
+Copy-Item ".\skills\tabcom-video-thumbnail" "$env:USERPROFILE\.claude\skills\" -Recurse -Force
 ```
 
 ```bash
 # macOS / Linux
-cp -r .claude/skills/tabcom-video-edit ~/.claude/skills/
-cp -r .claude/skills/tabcom-video-thumbnail ~/.claude/skills/
+cp -r skills/tabcom-video-edit ~/.claude/skills/
+cp -r skills/tabcom-video-thumbnail ~/.claude/skills/
 ```
 
 **Bước 2.** Cài môi trường theo [cai-dat/README-cai-dat.md](cai-dat/README-cai-dat.md)
@@ -47,7 +47,7 @@ Việc còn lại của người dùng: chèn nhạc nền trong CapCut.
 ## Trong gói có gì
 
 ```
-.claude/skills/
+skills/
   tabcom-video-edit/          Skill chính
     SKILL.md                  Toàn bộ quy trình + bài học đã đúc kết
     assets/                   Font, nền, OUTRO, logo sàn, sticker  <- dùng luôn, không cần tải

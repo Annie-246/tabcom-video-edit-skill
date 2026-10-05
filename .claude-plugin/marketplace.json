@@ -1,0 +1,8 @@
+{
+  "name": "tabcom-video-edit",
+  "owner": { "name": "Annie-246", "url": "https://github.com/Annie-246" },
+  "description": "Edit video dọc 9:16 cho Tabcom bằng ffmpeg + Pillow (tách nền người, cảnh chữ animation, ảnh minh họa, SFX) kèm skill tạo thumbnail.",
+  "plugins": [
+    { "name": "tabcom-video-edit", "displayName": "Tabcom Video Edit", "source": "./", "description": "Edit video dọc 9:16 cho Tabcom bằng ffmpeg + Pillow (tách nền người, cảnh chữ animation, ảnh minh họa, SFX) kèm skill tạo thumbnail." }
+  ]
+}
